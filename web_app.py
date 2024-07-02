@@ -85,8 +85,6 @@ else:
 
 from PIL import Image, ImageOps 
 
-from streamlit_image_coordinates import streamlit_image_coordinates
-
 def get_image_matrix(iloc, download_dir='solar_data'):
     import os
     import sunpy.map
