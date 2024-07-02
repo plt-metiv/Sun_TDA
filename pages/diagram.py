@@ -64,10 +64,10 @@ def crop_to_square(matrix, xs, xe, ys,ye):
 
 
 
-iloc_num = int(np.load('Pages/Crop_info/iloc_num.npy'))
-size = int(np.load('Pages/Crop_info/S_file.npy'))
-center_x = int(np.load('Pages/Crop_info/X_file.npy'))
-center_y = int(np.load('Pages/Crop_info/Y_file.npy'))
+iloc_num = int(np.load('Pages\Crop_info\iloc_num.npy'))
+size = int(np.load('Pages\Crop_info\S_file.npy'))
+center_x = int(np.load('Pages\Crop_info\X_file.npy'))
+center_y = int(np.load('Pages\Crop_info\Y_file.npy'))
 
 
 title = st.text_input("X, Y , Size  Cordination of Center of box ", "200, 200 , 300 ")
