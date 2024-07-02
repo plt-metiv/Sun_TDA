@@ -32,7 +32,7 @@ st.set_page_config(
 alt.themes.enable("dark")
 
 
-def get_image_matrix(iloc, download_dir='/../solar_data'):
+def get_image_matrix(iloc, download_dir='../solar_data'):
     import os
     import sunpy.map
 
