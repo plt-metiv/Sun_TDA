@@ -11,3 +11,4 @@ lxml
 bs4
 zeep
 drms
+scipy
