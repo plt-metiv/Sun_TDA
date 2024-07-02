@@ -7,4 +7,5 @@ gudhi
 astropy
 sunpy
 Pillow
+lxml
 bs4
