@@ -20,9 +20,7 @@ import sunpy.map
 import numpy as np
 
 import streamlit as st
-from streamlit_cropper import st_cropper
 from PIL import Image
-
 
 import os
 from sunpy.net import Fido, attrs as a
