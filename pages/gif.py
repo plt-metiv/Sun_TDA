@@ -15,7 +15,7 @@ alt.themes.enable("dark")
 
 
 
-file = open(r"pages\matrix_animation.gif", 'rb')
+file = open(r"pages/matrix_animation.gif", 'rb')
 
 contents = file.read()
 data_url = base64.b64encode(contents).decode("utf-8")
