@@ -9,3 +9,4 @@ sunpy
 Pillow
 lxml
 bs4
+zeep
