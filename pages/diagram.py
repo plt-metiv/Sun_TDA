@@ -32,10 +32,10 @@ st.set_page_config(
 alt.themes.enable("dark")
 
 
-def get_image_matrix(iloc, download_dir='../solar_data'):
+def get_image_matrix(iloc, download_dir='solar_data'):
     import os
     import sunpy.map
-
+    
     # List all files in the download directory
     files = [os.path.join(download_dir, f) for f in os.listdir(download_dir) if os.path.isfile(os.path.join(download_dir, f))]
     
