@@ -38,7 +38,7 @@ def get_image_matrix(iloc, download_dir='solar_data'):
     
     # List all files in the download directory
     files = [os.path.join(download_dir, f) for f in os.listdir(download_dir) if os.path.isfile(os.path.join(download_dir, f))]
-    print(len(files))
+    print(iloc)
     # Ensure the index is within the range of available files
     if iloc < 0 or iloc >= len(files):
         raise IndexError("Index out of range. Please provide a valid index.")
