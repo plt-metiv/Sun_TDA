@@ -138,7 +138,7 @@ if iloc_number :
             np.save('pages/Crop_info/S_file', size)
     
     
-            st.switch_page("Pages/diagram.py")
+            st.switch_page("pages/diagram.py")
     
     
     
