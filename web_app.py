@@ -132,10 +132,10 @@ if iloc_number :
     with col1:
         
         if st.button("Crop And Analyse"):
-            np.save('Pages/Crop_info/iloc_num', iloc_number)
-            np.save('Pages/Crop_info/X_file', X)
-            np.save('Pages/Crop_info/Y_file', Y)
-            np.save('Pages/Crop_info/S_file', size)
+            np.save('pages/Crop_info/iloc_num', iloc_number)
+            np.save('pages/Crop_info/X_file', X)
+            np.save('pages/Crop_info/Y_file', Y)
+            np.save('pages/Crop_info/S_file', size)
     
     
             st.switch_page("Pages/diagram.py")
